@@ -1,0 +1,52 @@
+
+body {
+    color: black;
+    background-color: white;
+   /*  margin: 10px 10px; */
+}
+
+header {
+    /* width: 700px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+div {
+    border: 1px black solid;
+}
+
+#divTimeline {
+    clear: both;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.year {
+    height: 20px;
+    width: 42px;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.uneventful {
+    background-image: url('../images/line.gif');
+}
+
+.eventful {
+    background-image: url('../images/darkball.gif');
+}
+
+.eventful:hover {
+    background-image: url('../images/lightball.gif');
+}
+
+#imgPortrait {
+    width: 200px;
+}
