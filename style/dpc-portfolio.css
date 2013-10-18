@@ -36,15 +36,15 @@ div {
 }
 
 .uneventful {
-    background-image: url('../images/line.gif');
+    background-image: url('../images/steel2.gif');
 }
 
 .eventful {
-    background-image: url('../images/darkball.gif');
+    background-image: url('../images/darkball-steel.gif');
 }
 
 .eventful:hover {
-    background-image: url('../images/lightball.gif');
+    background-image: url('../images/lightball-steel.gif');
 }
 
 #imgPortrait {
