@@ -1,23 +1,58 @@
 
 body {
     color: black;
-    background-color: white;
-   /*  margin: 10px 10px; */
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 10px 10px; */
 }
 
 header {
     /* width: 700px; */
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px black solid;
+    border-bottom: 3px solid;
+    border-bottom-color: #71b43a;;
     text-align: center;
+    background-color: #282828;
+    color: #71b43a;
+    vertical-align: middle;
+    height: 100px;
+    padding-top: 30px;
 }
 
+header>h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #71b43a;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #71b43a;
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+    /*color: #83837a;*/
+    color: #aa9;
+    font-size: 1em;
+    margin-top: 0;
+}
 td {
     text-align: center;
 }
+
 div {
-    border: 1px black solid;
+    /*
+    border: 1px green solid;
+    border-radius: 80px;
+    padding: 20px 50px;
+    margin: 10px;
+    */
 }
 
 #divTimeline {
@@ -29,7 +64,7 @@ div {
 
 .year {
     height: 20px;
-    width: 42px;
+    width: 51px;
     display: inline-block;
     margin: 10px 0;
     padding: 0;
